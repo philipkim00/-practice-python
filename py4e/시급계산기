@@ -1,0 +1,4 @@
+rate = input("시급이 얼마냐? ")
+house = input("몇시간 일하냐? ")
+pay = float(rate)*float(house)
+print("페이=", pay)
