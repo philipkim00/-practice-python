@@ -1,0 +1,14 @@
+sh = input("시급이 얼마냐? ")
+sr = input("몇시간 일하냐? ")
+fh = float(sh)
+fr = float(sr)
+# print(fh, fr)
+if fr > 40:
+    # print("초과시급")
+    reg = fr * fh
+    otp = (fr - 40.0) * (fh * 0.5)
+    xp = reg + otp
+else:
+    # print("평균시급")
+    xp = fh*fr
+print("페이=", xp)
